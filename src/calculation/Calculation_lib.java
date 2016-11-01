@@ -11,7 +11,18 @@ public class Calculation_lib {
 	
 	public int getPlus(){
 		return this.m+this.n;
+		
 	}
-	
-
+	public int getMinus(){
+		return this.m-this.n;
+	}
+	public int getProduct(){
+		return this.m*this.n;
+	}
+	public int getDivide(){
+		return this.m/this.n;
+	}
+	public int getMod(){
+		return this.m % this.n;
+	}
 }
